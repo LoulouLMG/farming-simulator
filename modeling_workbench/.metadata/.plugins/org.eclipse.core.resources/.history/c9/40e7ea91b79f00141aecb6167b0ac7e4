@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exploitation:Exploitation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:exploitation="http://www.example.org/exploitation" name="La ferme de Toto">
+  <surface>
+    <atelier xsi:type="exploitation:Crop">
+      <activities/>
+    </atelier>
+    <parcelle/>
+  </surface>
+  <surface>
+    <atelier xsi:type="exploitation:Farm">
+      <activities/>
+    </atelier>
+    <parcelle/>
+  </surface>
+  <ressource name="Roger"/>
+  <ressource/>
+</exploitation:Exploitation>
