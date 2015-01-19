@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:exploitation="http://www.example.org/exploitation" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_guEjwJ-0EeSJjKfLs2-5Bg" selectedViews="_ptgqUJ-8EeS79NqEuxPwUg" version="8.1.1">
+  <models xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_ptgqUJ-8EeS79NqEuxPwUg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_puaCMJ-8EeS79NqEuxPwUg" name="Exploitation Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pvmVAJ-8EeS79NqEuxPwUg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_pvmVAZ-8EeS79NqEuxPwUg" type="Sirius" element="_puaCMJ-8EeS79NqEuxPwUg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="__pEJYJ_BEeS9jO0JrckUnw" type="2003" element="_DPUo8J_DEeS_K7PN-0sKsg">
+            <children xmi:type="notation:Node" xmi:id="__pJo8J_BEeS9jO0JrckUnw" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="__pK3EJ_BEeS9jO0JrckUnw" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_DP20cJ_DEeS_K7PN-0sKsg" type="3010" element="_DPdy4J_DEeS_K7PN-0sKsg">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DP20cZ_DEeS_K7PN-0sKsg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_DP5QsJ_DEeS_K7PN-0sKsg" type="3010" element="_DPfBAJ_DEeS_K7PN-0sKsg">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DP5QsZ_DEeS_K7PN-0sKsg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="__pK3EZ_BEeS9jO0JrckUnw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__pK3Ep_BEeS9jO0JrckUnw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__pEJYZ_BEeS9jO0JrckUnw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__pEJYp_BEeS9jO0JrckUnw" x="125" y="50" width="253" height="223"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__pOhcJ_BEeS9jO0JrckUnw" type="2003" element="_DPbWoJ_DEeS_K7PN-0sKsg">
+            <children xmi:type="notation:Node" xmi:id="__pPvkJ_BEeS9jO0JrckUnw" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="__pPvkZ_BEeS9jO0JrckUnw" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_DP87EJ_DEeS_K7PN-0sKsg" type="3010" element="_DPfoEJ_DEeS_K7PN-0sKsg">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DP87EZ_DEeS_K7PN-0sKsg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="__pPvkp_BEeS9jO0JrckUnw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__pPvk5_BEeS9jO0JrckUnw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__pOhcZ_BEeS9jO0JrckUnw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__pOhcp_BEeS9jO0JrckUnw" x="450" y="45" width="298" height="288"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_pvmVAp-8EeS79NqEuxPwUg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_DPUo8J_DEeS_K7PN-0sKsg" name="Surface">
+        <target xmi:type="exploitation:Surface" href="My.exploitation#//@surface.0"/>
+        <semanticElements xmi:type="exploitation:Surface" href="My.exploitation#//@surface.0"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_DPYTUJ_DEeS_K7PN-0sKsg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DPYTUZ_DEeS_K7PN-0sKsg"/>
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DPYTUp_DEeS_K7PN-0sKsg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_DPYTU5_DEeS_K7PN-0sKsg" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_DPdy4J_DEeS_K7PN-0sKsg" name="Plot">
+          <target xmi:type="exploitation:Plot" href="My.exploitation#//@surface.0/@parcelle.0"/>
+          <semanticElements xmi:type="exploitation:Plot" href="My.exploitation#//@surface.0/@parcelle.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_DPeZ8J_DEeS_K7PN-0sKsg">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DPeZ8Z_DEeS_K7PN-0sKsg"/>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DPeZ8p_DEeS_K7PN-0sKsg"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_DPeZ85_DEeS_K7PN-0sKsg" red="136" green="136" blue="136"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_DPfBAJ_DEeS_K7PN-0sKsg" name="Plot">
+          <target xmi:type="exploitation:Plot" href="My.exploitation#//@surface.0/@parcelle.1"/>
+          <semanticElements xmi:type="exploitation:Plot" href="My.exploitation#//@surface.0/@parcelle.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_DPfBAZ_DEeS_K7PN-0sKsg">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DPfBAp_DEeS_K7PN-0sKsg"/>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DPfBA5_DEeS_K7PN-0sKsg"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_DPfBBJ_DEeS_K7PN-0sKsg" red="136" green="136" blue="136"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_DPbWoJ_DEeS_K7PN-0sKsg" name="Surface">
+        <target xmi:type="exploitation:Surface" href="My.exploitation#//@surface.1"/>
+        <semanticElements xmi:type="exploitation:Surface" href="My.exploitation#//@surface.1"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_DPbWoZ_DEeS_K7PN-0sKsg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DPbWop_DEeS_K7PN-0sKsg"/>
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DPbWo5_DEeS_K7PN-0sKsg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_DPbWpJ_DEeS_K7PN-0sKsg" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_DPfoEJ_DEeS_K7PN-0sKsg" name="Plot">
+          <target xmi:type="exploitation:Plot" href="My.exploitation#//@surface.1/@parcelle.0"/>
+          <semanticElements xmi:type="exploitation:Plot" href="My.exploitation#//@surface.1/@parcelle.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_DPfoEZ_DEeS_K7PN-0sKsg">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DPfoEp_DEeS_K7PN-0sKsg"/>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_DPfoE5_DEeS_K7PN-0sKsg"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_DPfoFJ_DEeS_K7PN-0sKsg" red="136" green="136" blue="136"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@subNodeMappings[name='plot_subnode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_puaCMZ-8EeS79NqEuxPwUg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer"/>
+      <target xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

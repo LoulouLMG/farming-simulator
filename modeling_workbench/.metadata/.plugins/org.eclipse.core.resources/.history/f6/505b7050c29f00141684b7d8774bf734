@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:exploitation="http://www.example.org/exploitation" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description" xmi:id="_guEjwJ-0EeSJjKfLs2-5Bg" selectedViews="_ptgqUJ-8EeS79NqEuxPwUg" version="8.1.1">
+  <models xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_ptgqUJ-8EeS79NqEuxPwUg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_puaCMJ-8EeS79NqEuxPwUg" name="Exploitation Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pvmVAJ-8EeS79NqEuxPwUg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_pvmVAZ-8EeS79NqEuxPwUg" type="Sirius" element="_puaCMJ-8EeS79NqEuxPwUg" measurementUnit="Pixel">
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_pvmVAp-8EeS79NqEuxPwUg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_puaCMZ-8EeS79NqEuxPwUg"/>
+      <target xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
