@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:exploitation="http://www.example.org/exploitation" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_guEjwJ-0EeSJjKfLs2-5Bg" selectedViews="_ptgqUJ-8EeS79NqEuxPwUg" version="8.1.1">
+  <models xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_ptgqUJ-8EeS79NqEuxPwUg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_puaCMJ-8EeS79NqEuxPwUg" name="Exploitation Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pvmVAJ-8EeS79NqEuxPwUg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_pvmVAZ-8EeS79NqEuxPwUg" type="Sirius" element="_puaCMJ-8EeS79NqEuxPwUg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="__pEJYJ_BEeS9jO0JrckUnw" type="2002" element="__o040J_BEeS9jO0JrckUnw">
+            <children xmi:type="notation:Node" xmi:id="__pJo8J_BEeS9jO0JrckUnw" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="__pK3EJ_BEeS9jO0JrckUnw" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="__pK3EZ_BEeS9jO0JrckUnw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__pK3Ep_BEeS9jO0JrckUnw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__pEJYZ_BEeS9jO0JrckUnw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__pEJYp_BEeS9jO0JrckUnw" x="20" y="110" width="253" height="223"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__pOhcJ_BEeS9jO0JrckUnw" type="2002" element="__o5KQJ_BEeS9jO0JrckUnw">
+            <children xmi:type="notation:Node" xmi:id="__pPvkJ_BEeS9jO0JrckUnw" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="__pPvkZ_BEeS9jO0JrckUnw" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="__pPvkp_BEeS9jO0JrckUnw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__pPvk5_BEeS9jO0JrckUnw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__pOhcZ_BEeS9jO0JrckUnw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__pOhcp_BEeS9jO0JrckUnw" x="465" y="50" width="298" height="288"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_pvmVAp-8EeS79NqEuxPwUg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="__o040J_BEeS9jO0JrckUnw" name="Surface">
+        <target xmi:type="exploitation:Surface" href="My.exploitation#//@surface.0"/>
+        <semanticElements xmi:type="exploitation:Surface" href="My.exploitation#//@surface.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_hL61AJ_CEeSrCs_r77cHVA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hL61AZ_CEeSrCs_r77cHVA"/>
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hL61Ap_CEeSrCs_r77cHVA"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hL61A5_CEeSrCs_r77cHVA" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="__o5KQJ_BEeS9jO0JrckUnw" name="Surface">
+        <target xmi:type="exploitation:Surface" href="My.exploitation#//@surface.1"/>
+        <semanticElements xmi:type="exploitation:Surface" href="My.exploitation#//@surface.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" xmi:id="_hL8DIJ_CEeSrCs_r77cHVA">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hL8DIZ_CEeSrCs_r77cHVA"/>
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hL8DIp_CEeSrCs_r77cHVA"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hL8DI5_CEeSrCs_r77cHVA" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer/@containerMappings[name='surface_container']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_puaCMZ-8EeS79NqEuxPwUg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']/@ownedRepresentations[name='farming-simulator_diagram']/@defaultLayer"/>
+      <target xmi:type="exploitation:Exploitation" href="My.exploitation#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/fr.esir.lsi.exploitation.design/description/farming-simulator.odesign#//@ownedViewpoints[name='farming-simulator_vp']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
