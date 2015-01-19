@@ -1,24 +1,61 @@
 Model {
 	
-	ressourceTypes { Personne, Machine}
+	ressourceTypes { Personne, Tracteur}
 	
 	activities{
 		
-		PeriodicActivity recolteMais{
-			periodicity 9
+		PeriodicActivity faxe_activite{
+			periodicity 1
+			allocations{
+				resource Personne for 4 hours,
+				resource Tracteur for 4 hours
+			}
+		},
+		
+		PeriodicActivity alimentation_ovin{
+			periodicity 1
+			allocations{
+				resource Personne for 4 hours
+			}			
+		},
+		
+		PeriodicActivity surveillance_agnelage{
+			periodicity 365
 			rules{
 				Rule{
-					predicates {Predicate}
+					predicates{Predicate}//Pouvoir mettre au printemp
 				}
 			}
 			allocations{
-				ResourceAllocation{
-					duration 2
-					resource Personne
-				}
+				resource Personne for 56 hours
 			}
-			
+		},
+		
+		PeriodicActivity alimentation_bovin{
+			periodicity 1
+			allocations{
+				resource Personne for 4 hours
+			}
+		},
+		
+		PeriodicActivity traite{
+			periodicity 1
+			//debut mars
+			//fin décembre
+			allocations{
+				resource Personne for 4 hours
+			}
+		},
+		
+		PeriodicActivity surveillance_velage{
+			periodicity 365
+			//debut en décembre
+			allocations{
+				resource Personne for 56 hours
+			}
 		}
+		
+	
 	}
 	
 }
