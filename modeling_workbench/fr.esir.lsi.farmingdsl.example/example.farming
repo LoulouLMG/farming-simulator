@@ -21,11 +21,6 @@ Model {
 		
 		PeriodicActivity surveillance_agnelage{
 			periodicity 365
-			rules{
-				Rule{
-					predicates{Predicate}//Pouvoir mettre au printemp
-				}
-			}
 			allocations{
 				resource Personne for 56 hours
 			}
@@ -41,7 +36,7 @@ Model {
 		PeriodicActivity traite{
 			periodicity 1
 			//debut mars
-			//fin décembre
+			//fin dÃ©cembre
 			allocations{
 				resource Personne for 4 hours
 			}
@@ -49,10 +44,35 @@ Model {
 		
 		PeriodicActivity surveillance_velage{
 			periodicity 365
-			//debut en décembre
+			//debut en dÃ©cembre
 			allocations{
 				resource Personne for 56 hours
 			}
+		},
+		
+		PeriodicActivity labourBle{
+			//1sept/30sept
+			rules{				
+				no rained the last 3 days
+			}		
+			allocations{
+				resource Personne for 240 hours,
+				resource Tracteur for 240 hours
+			}
+		},
+		
+		PeriodicActivity semisBle{
+			rules{
+				no rained the last 3 days 
+				AND temperature > 5 0C
+				OR t >= '30 oct'
+				
+			}
+			allocations{
+				resource Personne for 240 hours,
+				resource Tracteur for 240 hours
+			}
+			
 		}
 		
 	
