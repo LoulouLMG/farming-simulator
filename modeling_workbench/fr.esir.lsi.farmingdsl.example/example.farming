@@ -1,0 +1,24 @@
+Model {
+	
+	ressourceTypes { Personne, Machine}
+	
+	activities{
+		
+		PeriodicActivity recolteMais{
+			periodicity 9
+			rules{
+				Rule{
+					predicates {Predicate}
+				}
+			}
+			allocations{
+				ResourceAllocation{
+					duration 2
+					resource Personne
+				}
+			}
+			
+		}
+	}
+	
+}
