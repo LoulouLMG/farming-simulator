@@ -1,6 +1,6 @@
 Model {
 	
-	ressourceTypes { Personne, Tracteur}
+	ressourceTypes : Personne, Tracteur
 	
 	activities{
 		
