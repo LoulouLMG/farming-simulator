@@ -2,8 +2,6 @@ package fr.esir.lsi.simulation
 
 import exploitation.Exploitation
 import exploitation.ExploitationPackage
-import exploitation.Surface
-import exploitation.impl.ExploitationFactoryImpl
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.EPackage
 import org.eclipse.emf.ecore.resource.Resource
@@ -12,31 +10,7 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl
 
 import static extension fr.esir.lsi.simulation.exploitation.ExploitationAspect.*
 
-class TestAspect {
-
-	public def run() {
-		var fact = ExploitationFactoryImpl.init
-
-		var Exploitation exploitationTest = fact.createExploitation
-		exploitationTest.name = "TestExploitation"
-
-		exploitationTest.display
-
-		var Surface s = fact.createSurface
-
-		exploitationTest.add(s)
-
-		exploitationTest.displaySurfaces
-
-	}
-
-	public def runWithModel() {
-
-		var exp = initExploitation
-
-		exp.compile
-
-	}
+class Simulation {
 
 	def Exploitation initExploitation() {
 		var fact = new XMIResourceFactoryImpl
@@ -58,9 +32,20 @@ class TestAspect {
 		return exp;
 	}
 
-	def static void main(String[] args) {
+	def display() {
+		var exp = initExploitation
 
-		new TestAspect().runWithModel
+		println("The exploitation " + exp.name + " is irrigated : " + exp.isIrrigated)
+	}
+	
+	def haveSurfacesThatNeedIrrigation() {
+		var exp = initExploitation
+		
+		exp.haveSurfacesThatNeedIrrigation
+	}
+
+	def static void main(String[] args) {
+		new Simulation().haveSurfacesThatNeedIrrigation
 
 	}
 }
