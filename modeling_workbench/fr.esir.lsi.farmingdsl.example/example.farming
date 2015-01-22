@@ -57,9 +57,8 @@ farming {
 		PeriodicActivity semisBle{
 			rules{
 				no rained the last 3 days 
-				AND temperature > 5 0C
-				OR t >= 30 october 2015
-				
+				AND temperature sup than 5 0C
+				OR t supequals than 30 october 2015				
 			}
 			allocations{
 				resource Personne for 240 hours,
