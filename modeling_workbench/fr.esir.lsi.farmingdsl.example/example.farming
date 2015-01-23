@@ -1,4 +1,4 @@
-farming {
+model {
 	
 	ressourceTypes : Personne, Tracteur
 	
@@ -6,7 +6,7 @@ farming {
 		
 		
 		PeriodicActivity alimentation_ovin{
-			each 1 days
+			each 1day
 			allocations{
 				resource Personne for 4 hours
 			}
@@ -14,21 +14,21 @@ farming {
 		
 		
 		PeriodicActivity surveillance_agnelage{
-			each 1 years
+			each 1 year
 			allocations{
 				resource Personne for 56 hours
 			}
 		},
 		
 		PeriodicActivity alimentation_bovin{
-			each 1 days
+			each 1day
 			allocations{
 				resource Personne for 4 hours
 			}
 		},
 		
 		PeriodicActivity traite{
-			each 1 days
+			each 1day
 			from 1 march 2015 to 31december 2015
 			allocations{
 				resource Personne for 4 hours
@@ -36,7 +36,7 @@ farming {
 		},
 		
 		PeriodicActivity surveillance_velage{
-			each 1 years
+			each 1 year
 			//debut en décembre
 			allocations{
 				resource Personne for 56 hours
@@ -46,7 +46,8 @@ farming {
 		PeriodicActivity labourBle{
 			from 1 september 2014 to 30 september 2014
 			rules{				
-				no rained the last 3 days
+				no rained the last 3 days,
+				seed maturity
 			}		
 			allocations{
 				resource Personne for 240 hours,

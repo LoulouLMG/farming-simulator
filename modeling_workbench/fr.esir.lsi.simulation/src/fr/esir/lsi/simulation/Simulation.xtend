@@ -13,6 +13,7 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl
 
 import static extension fr.esir.lsi.simulation.exploitation.ExploitationAspect.*
 import static extension fr.esir.lsi.simulation.exploitation.SurfaceAspect.*
+import static extension fr.esir.lsi.simulation.activity.ModelAspect.*
 
 class Simulation {
 	static var Exploitation exp
@@ -78,8 +79,11 @@ class Simulation {
 		mod = initModel
 
 		var sim = new Simulation
-		
-		
 		sim.doThing
+
+		mod.print
+		
+		
+		
 	}
 }
