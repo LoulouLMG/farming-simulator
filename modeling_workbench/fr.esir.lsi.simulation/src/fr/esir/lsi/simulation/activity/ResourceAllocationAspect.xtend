@@ -6,6 +6,7 @@ import activity.ResourceType
 
 @Aspect(className=ResourceAllocation)
 class ResourceAllocationAspect {
+
 	
 	
 	def void setDuration(int i){

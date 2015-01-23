@@ -5,6 +5,8 @@ import activity.Model
 import exploitation.Exploitation
 import exploitation.ExploitationPackage
 import fr.esir.lsi.exploitation.farmingdsl.FarmingStandaloneSetup
+import java.util.Calendar
+import java.util.Date
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.EPackage
 import org.eclipse.emf.ecore.resource.Resource
@@ -73,6 +75,12 @@ class Simulation {
 	def doThing() {
 		println("Ha of the Exploitation "+exp.name+" : "+exp.surface.get(0).getHa)
 	}
+	
+	def getWaterConsumption(Date date) {
+		//mod.getWaterActivities();
+		var liters_needed = exp.getWaterNeeded(date)
+		return liters_needed
+	}
 
 	def static void main(String[] args) {
 		exp = initExploitation
@@ -84,6 +92,11 @@ class Simulation {
 		mod.print
 		
 		
+		var Calendar c = Calendar.getInstance
 		
+		c.set(2012,0,6);
+
+		
+	println("Need "+sim.getWaterConsumption(c.getTime)+" liters")
 	}
 }
